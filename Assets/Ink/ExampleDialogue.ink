@@ -1,4 +1,4 @@
-﻿Hello!
+Hello!
 My name is Rectangle :O
 How are you? :)
 
@@ -8,5 +8,8 @@ How are you? :)
 * [I've had a terrible day....]
     o o f
     That sucks :/
+
+* [...]
+    I understand.
 
 -> END
