@@ -13,14 +13,13 @@ public class DialogueManager : MonoBehaviour
     public GameObject dialoguePanel; 
     public GameObject choicePanel;
     public GameObject buttonPrefab;
-    public EventSystem eventSystem;
+    private EventSystem eventSystem;
     private TextMeshProUGUI displayText;
     private DialogueSystem currentSystem;
     private Story story;
     private List<ChoiceButton> choices;
     private bool isTyping;
-
-    public DialogueSystem dialogue; // ONLY FOR TESTING
+    [HideInInspector] public bool speaking;
 
     private void Awake()
     {
@@ -31,19 +30,7 @@ public class DialogueManager : MonoBehaviour
         choicePanel.SetActive(false);
         choices = new List<ChoiceButton>();
         isTyping = false;
-    }
-
-    private void Update()
-    {
-        // When interact button is pressed, either start dialogue or continue story
-        // (SPACEBAR or E)
-        if (Input.GetButtonDown("Interact"))
-        {
-            if (currentSystem == null)
-                OpenDialogue(dialogue);
-            else
-                NextSentence();
-        }
+        speaking = false;
     }
 
     // Enable dialogue box and set references.
@@ -51,6 +38,7 @@ public class DialogueManager : MonoBehaviour
     {
         if (currentSystem == null)
         {
+            speaking = true;
             currentSystem = dialogue;
             story = dialogue.story;
             dialoguePanel.SetActive(true);
@@ -63,7 +51,7 @@ public class DialogueManager : MonoBehaviour
     // Either gets the next available sentence, 
     // displays choices,
     // or closes the dialogue at the end of the story.
-    private void NextSentence()
+    public void NextSentence()
     {
         // If currently typing, stop typing and display whole sentence.
         if (isTyping)
@@ -114,6 +102,7 @@ public class DialogueManager : MonoBehaviour
         displayText.enabled = false;
         currentSystem = null;
         dialoguePanel.SetActive(false);
+        speaking = false;
     }
 
     // Instantiates buttons for each available choice in the current point in the story
