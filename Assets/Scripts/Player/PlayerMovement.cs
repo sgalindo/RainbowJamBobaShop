@@ -31,6 +31,8 @@ public class PlayerMovement : MonoBehaviour
             movementInput = new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"));
             movementInput = Vector2.ClampMagnitude(movementInput, 1);
         }
+        else
+            movementInput = Vector2.zero; // Else reset movementInput to avoid slidies after interacting with something
     }
 
     private void FixedUpdate()

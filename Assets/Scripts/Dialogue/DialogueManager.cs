@@ -99,7 +99,6 @@ public class DialogueManager : MonoBehaviour
     private void CloseDialogue()
     {
         ResetText();
-        displayText.enabled = false;
         currentSystem = null;
         dialoguePanel.SetActive(false);
         speaking = false;
@@ -138,7 +137,5 @@ public class DialogueManager : MonoBehaviour
         // Clear choices list and hide panel.
         choices.Clear();
         choicePanel.SetActive(false);
-
-        NextSentence(); // Finally, advance story.
     }
 }
