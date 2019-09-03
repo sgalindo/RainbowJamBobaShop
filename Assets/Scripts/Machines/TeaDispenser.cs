@@ -2,13 +2,15 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PearlDispenser : Machine
+public class TeaDispenser : Machine
 {
-    public string pearlType;
+    public string teaType;
 
     public override bool Interact(PlayerInteract interactor)
     {
         if (interactor.heldBoba == null)
+            return false;
+        if (interactor.heldBoba.pearls == "")
             return false;
 
         base.Interact(interactor);
@@ -18,14 +20,15 @@ public class PearlDispenser : Machine
         else
         {
             interacting = false;
-            DispensePearls(interactor.heldBoba, pearlType);
+            DispenseTea(interactor.heldBoba, teaType);
         }
 
         return interacting;
     }
 
-    private void DispensePearls(Boba boba, string pearlType)
+    private void DispenseTea(Boba boba, string teaType)
     {
-        boba.pearls = pearlType;
+        boba.flavor = teaType;
+        boba.ready = true;
     }
 }
