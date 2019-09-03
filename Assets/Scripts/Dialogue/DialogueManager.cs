@@ -15,11 +15,16 @@ public class DialogueManager : MonoBehaviour
     public GameObject buttonPrefab;
     private EventSystem eventSystem;
     private TextMeshProUGUI displayText;
-    private DialogueSystem currentSystem;
     private Story story;
+    private float speed;
     private List<ChoiceButton> choices;
     private bool isTyping;
-    [HideInInspector] public bool speaking;
+
+    public delegate void BeginDialogueEvent(bool disableMovement);
+    public event BeginDialogueEvent beginDialogueEvent = delegate { };
+
+    public delegate void EndDialogueEvent(bool disableMovement);
+    public event EndDialogueEvent endDialogueEvent = delegate { };
 
     private void Awake()
     {
@@ -30,50 +35,62 @@ public class DialogueManager : MonoBehaviour
         choicePanel.SetActive(false);
         choices = new List<ChoiceButton>();
         isTyping = false;
-        speaking = false;
     }
 
-    // Enable dialogue box and set references.
-    public void OpenDialogue(DialogueSystem dialogue)
+    public void Update()
     {
-        if (currentSystem == null)
+
+    }
+
+    public void InitializeDialogue(DialogueSystem ds)
+    {
+        if (story == null)
         {
-            speaking = true;
-            currentSystem = dialogue;
-            story = dialogue.story;
+            story = ds.story;
+            speed = ds.speed;
             dialoguePanel.SetActive(true);
             displayText.text = "";
+            beginDialogueEvent(true);
             NextSentence();
         }
+    }
+
+    public bool Interact(PlayerInteract interactor)
+    {
+        return NextSentence();
     }
 
     // Continue the story. 
     // Either gets the next available sentence, 
     // displays choices,
     // or closes the dialogue at the end of the story.
-    public void NextSentence()
+    public bool NextSentence()
     {
         // If currently typing, stop typing and display whole sentence.
         if (isTyping)
         {
             ResetText();
             displayText.text = story.currentText;
-            return;
         }
-
         // canContinue returns true only if it has another sentence in queue
         // (no choices, and not at end of story)
-        if (story.canContinue)
+        else if (story.canContinue)
         {
             ResetText();
             StartCoroutine(Type(story.Continue()));
         }
         // Else, display choices if there are any.
         else if (story.currentChoices.Count > 0 && choices.Count == 0)
+        {
             PopulateChoices();
+        }
         // Otherwise, we're at end of story and we can close the dialogue.
         else
+        {
             CloseDialogue();
+            return false;
+        }
+        return true;
     }
 
     // Types out the current sentence letter by letter at the currentSystem's speed
@@ -83,7 +100,7 @@ public class DialogueManager : MonoBehaviour
         foreach (char letter in sentence.ToCharArray())
         {
             displayText.text += letter;
-            yield return new WaitForSeconds(currentSystem.speed);
+            yield return new WaitForSeconds(speed);
         }
         isTyping = false;
     }
@@ -99,9 +116,9 @@ public class DialogueManager : MonoBehaviour
     private void CloseDialogue()
     {
         ResetText();
-        currentSystem = null;
+        endDialogueEvent(false);
+        story = null;
         dialoguePanel.SetActive(false);
-        speaking = false;
     }
 
     // Instantiates buttons for each available choice in the current point in the story
@@ -137,5 +154,6 @@ public class DialogueManager : MonoBehaviour
         // Clear choices list and hide panel.
         choices.Clear();
         choicePanel.SetActive(false);
+
     }
 }

@@ -5,60 +5,63 @@ using UnityEngine;
 // Interaction script for player.
 // Attach to PlayerInteract object.
 // Interact button: E or Spacebar.
-// TODO: Handle interaction with machines.
 public class PlayerInteract : MonoBehaviour
 {
     public List<GameObject> interactables; // List of objects we can currently interact with
     private DialogueManager dm;
+    public Boba heldBoba = null;
+    public static bool interacting = false;
+    private NPC npc = null;
+    private Machine machine = null;
 
     private void Start()
     {
         dm = (DialogueManager)FindObjectOfType(typeof(DialogueManager));
         interactables = new List<GameObject>();
+        dm.beginDialogueEvent += SetMovement;
+        dm.endDialogueEvent += SetMovement;
     }
 
     private void Update()
     {
         // "E" or "Spacebar"
         if (Input.GetButtonDown("Interact"))
-        {
-            // If not speaking to anyone
-            if (!dm.speaking)
-            {
-                DialogueSystem ds = null;
+            Interact();
+    }
 
-                // Check if closest object (to player's field of view) can be spoken to
-                if (interactables.Count > 0)
-                {
-                    int index = FindClosestToFOV();
-                    ds = interactables[index].transform.parent.GetComponent<DialogueSystem>();
-                    interactables.RemoveAt(index); // Remove object since we've already started interacting with it
-                }
-                if (ds)
-                {
-                    // If so, begin dialogue
-                    dm.OpenDialogue(ds);
-                }
-            }
-            else
+    private void Interact()
+    {
+        // If not interacting with anything
+        if (!interacting)
+        {
+            // Check if closest object (to player's field of view) can be interacted with
+            if (interactables.Count > 0)
             {
-                // If already speaking, continue dialogue
-                dm.NextSentence();
+                int index = FindClosestToFOV();
+                npc = interactables[index].transform.parent.GetComponent<NPC>();
+                machine = interactables[index].transform.parent.GetComponent<Machine>();
+                interactables.RemoveAt(index); // Remove object since we've already started interacting with it
             }
         }
+
+        // Interact depending on if interactable is NPC or machine
+        if (npc)
+            npc.Interact(this);
+        else if (machine)
+            interacting = machine.Interact(this);
     }
 
     // When something enters trigger collider, check if it is interactable.
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.tag == "NPC")
+        if (other.tag == "NPC" || other.tag == "Machine")
             interactables.Add(other.gameObject);
     }
 
     // When something exits trigger collider, if it is interactable, clear its reference
     private void OnTriggerExit2D(Collider2D other)
     {
-        if (other.tag == "NPC")
+        if (other.tag == "NPC" || other.tag == "Machine")
             interactables.Remove(other.gameObject);
     }
 
@@ -90,4 +93,8 @@ public class PlayerInteract : MonoBehaviour
         return closest;
     }
 
+    private void SetMovement(bool enabled)
+    {
+        interacting = enabled;
+    }
 }
