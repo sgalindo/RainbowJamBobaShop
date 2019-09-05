@@ -222,7 +222,7 @@ GameObject:
   - component: {fileID: 1032360138}
   - component: {fileID: 1032360137}
   m_Layer: 0
-  m_Name: NPC
+  m_Name: NPC_Nikki
   m_TagString: NPC
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -481,7 +481,7 @@ PrefabInstance:
     - target: {fileID: 8452316560998742078, guid: 4521593ad8364044480ab20143d5b23e,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.02
+      value: -3.63
       objectReference: {fileID: 0}
     - target: {fileID: 8452316560998742078, guid: 4521593ad8364044480ab20143d5b23e,
         type: 3}
@@ -639,7 +639,7 @@ PrefabInstance:
     - target: {fileID: 1210214225796168519, guid: 4128570a5576cf1498649ef774eb6293,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.36
+      value: -0.1
       objectReference: {fileID: 0}
     - target: {fileID: 1210214225796168519, guid: 4128570a5576cf1498649ef774eb6293,
         type: 3}
