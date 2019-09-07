@@ -1,0 +1,1283 @@
+When I was just a kid, Mom used to take me and my sister out for bubble tea on Saturdays after she got home from her morning shift. It was something I looked forward to every week. I’d open the doors wide and see all my friends, and sometimes, the shop owner would even have my favorite order ready! It was the one time and place we knew we could come be where all the homework and chores of the outside world couldn’t keep us down.
+
+I remember the old shopkeeper used to ask every customer how they were, and you could tell he really meant it. And we all answered honestly. We may have lived in a pretty large city, but in that shop, we were a tiny, tight-knit community. I always told him I was gonna open a shop just like his one day.
+
+Intro Cutscene
+
+After college, real life hit me like a bag full of taxes. I got a desk job in a small town out East. I made rent. I had always dreamed of opening a tea shop, but it was just that: a dream.
+
+That changed two months ago. I got a letter in the mail from the son of someone I had known as a kid. He… had passed. His son had found an old Polaroid of us together. 
+
+(Polaroid says: “Can’t wait to try your tea someday!”)
+
+Eventually, you have to stop dreaming and start chasing. That’s the thought that brought me all the way back to the city.That’s the thought that’s kept me going over the past two months of crafting and construction. But it’s finally ready- my own shop. I got this.
+
+
+[Player Name]: Whew…..
+
+[Player Name]: Okay.
+
+[Player Name]: Okay.
+
+[Player Name]: I can do this! I can do this. Just… Unlock the door.
+
+[Player Name]: Aaaaaaand
+
+[Player Name]: Boop!
+
+(The door opens. [Player Name] walks into their new shop as morning sunlight streams through the open windows, illuminating a cozy but un-lived-in space)
+
+[Player Name]: Alright. Opening procedures. Let’s see.
+
+[Player Name]: I’ve gotta double check all the machines and turn them on, get the food counter prepped, and then I’ll do my extra secret final step.
+
+(Player interacts with machines and bakery counter, has time to walk around and explore. When done, stand by the cash register)
+
+[Player Name]: Looking good, shop!
+
+[Player Name]: Looking good, [Player Name]!
+
+[Player Name]: Haha. So glad nobody is here to see that.
+
+[Player Name], imitating shop: They’ll never understand our friendship!
+
+[Player Name]: Okay okay seriously though, quiet down! I think I spy our first customer!
+
+[Player Name]: Time for my super secret final prep step.
+
+NIKKI walks through the front door, which gives a pleasant jingling
+
+[Player Name]: WELCOME TO [Player Name], I’M POSITIVITEA
+
+[Player Name]: Wait
+
+[Player Name]: oh god I screwed up already oh god oh no
+
+NIKKI: Well, hi!
+
+NIKKI: Welcome to Nikki, I’m (Town Name)!
+
+NIKKI: But seriously, A+ for enthusiasm. This shop is so cute!
+
+[Player Name]: Uh, thank you! 
+
+[Player Name]: I designed all the decorations myself. I want you all to feel right at home in my shop!
+
+NIKKI: Well, you’re on the right track, that’s for sure, haha
+
+NIKKI: …
+
+NIKKI: So.
+
+NIKKI: To Business.
+[Player Name]: (She got so serious all of a sudden???)
+
+NIKKI: Tell me.
+
+[Player Name]: (Eep!)
+
+NIKKI: …
+
+NIKKI: Can I get a large Thai tea, please?
+
+[Player Name]: (ohthankgodshejustwantstea)
+
+[Player Name]: Of COURSE, what kind of a boba shop would I be without it?
+
+[Player Name]: What would you like in it? We’ve got your standard tapioca balls and a bunch of fun, fruity stuff, too.
+
+NIKKI: Oh, I like to keep it classic. Hit me up with that tapioca, dude!
+
+[Player Name]: BET. Be right back, feel free to make yourself at home until then!
+
+Player is prompted to use the machines to make a THAI TEA. NIKKI sits in the middle of the room and opens a book. Player eventually finishes making tea and is prompted to place it at the pickup counter.
+
+[Player Name]: Uhh, order for Nikki!
+
+NIKKI: …
+
+[Player Name]: …
+
+[Player Name]: Helloooo?
+
+[Player Name]: She’s totally absorbed in that book. Nobody’s here, I’ll just bring it to her.
+
+Player is prompted to pick up the tea and OPEN THE COUNTER, then bring the drink to NIKKI
+
+[Player Name]: Here you go!
+
+NIKKI: Oh!
+
+NIKKI: Sorry, I totally zoned in. Thank you so much!
+
+NIKKI takes a fucking sip, babes.
+
+NIKKI: Oh.
+
+NIKKI: Oh my god.
+
+[Player Name]: (oh god she hates it)
+
+NIKKI: Oh god I love it!
+
+[Player Name]: Wait, really?
+
+NIKKI: I don’t mean to brag, but I’m something of a thai tea connoisseur. And this?
+
+NIKKI: This is mint.
+
+[Player Name]: No it’s not, it’s tea.
+
+[Player Name]: I don’t know why I said that. Thank you, that means a lot!
+
+[Player Name]: Let me know if you need anything else!
+
+[Player Name]: (Off to a great start! Hopefully she’ll tell her friends, and then we’ll be in business!)
+
+[Player Name]: (In the meantime, looks like Walter, Beauregard, and Refrigerator Johnson could use some love.)
+
+Player is prompted to pick up the watering can and interact with the three plants on the shelf.
+
+[Player Name]: (On second thought, maybe I should rename them?)
+
+Player is prompted to rename the plants.
+
+[Player Name]: Nice.
+
+Nikki: What?
+
+[Player Name]: Nothing! Hah!
+
+[Player Name]: (Back to the counter for me!)
+
+[Player Name]: (And just in time!)
+
+Two more random NPCs enter the shop. A final tutorial prompt explains that the player can exit the counter and walk around the shop at any time when there are no customers in line.
+
+Grant
+
+Intro
+GRANT: So, this is the place that’s been under the construction tarp for so long.
+
+GRANT: Heck of a job!
+
+[Player Name]: Thank you! I’m trying my best! This shop’s always been a dream of mine, so it was important to me to nail the hashtag vibe, know what I mean?
+
+GRANT: Hah! Ironic irl hashtag. I love it.
+
+GRANT: Real quick question, what y’all got that ISN’T chock full of caffeine?
+
+[Player Name]: Weeeeell…
+
+GRANT: No worries, I know that’s like. Most of your shop. I’m sure it’s all super tasty too! Just, uh, don’t agree with the ol’ tum-tum super well.
+
+[Player Name]: (TMI, dude...) 
+
+[Player Name]: Gotcha! Well, you’re definitely gonna wanna avoid the tiramisu.
+
+GRANT: You mean the cake laced in coffee? Whaaaat?
+
+[Player Name]: Ahaha. Ok for real though? The smoothies are probably your best bet. All fresh fruit!
+
+GRANT: Okay, I can get behind a smoothie!
+
+GRANT: Hmmmmm.
+
+GRANT: Whaddya think then, [Player Name], Red Bean or Mango?
+
+Mango Route
+[Player Name]: Oh, it’s gotta be Mango, dude. They’re in season right now and the flavor is KILLER.
+
+GRANT: Oh dang, you got a good mango hookup?
+
+[Player Name]: I’LL NEVER REVEAL MY SECRETS! NEVER!
+
+[Player Name]:...
+
+GRANT:...
+
+[Player Name]: But I will absolutely sell you a smoothie. 
+
+GRANT: I’ll crack you one day. You’ll let it slip when you’re not thinking.
+
+GRANT: But in the meantime, yeah, can I get a small?
+
+[Player Name]: Absolutely! Normal tapioca balls okay?
+
+GRANT: Yes Sir/Ma’am/, Please!
+
+[Player Name]: Coming right up!
+
+Red Bean Route
+[Player Name]: For you, I’m thinking something more earthy. Let’s do Red Bean!
+
+GRANT: Heck yeah, I’m down!
+
+GRANT: That wasn’t really a flavor that was available where I lived, so I’m always excited to get it.
+
+[Player Name]: Oh dang, must not have been around here, then.
+
+GRANT: Nope!
+
+GRANT: We’re a long way from Texas, Toto!
+GRANT: …
+
+GRANT: Yeah, that didn’t really land. Anyway.
+
+GRANT: It’s gotta be tapioca balls if we’re doing red bean! Let me get that in a small, please!
+
+[Player Name]: You got it, ~pardner~!
+
+GRANT: …
+
+[Player Name]: No?
+
+[Player Name]: … I’ll have it right out sorry
+
+GRANT: Thanks!
+
+GRANT: Pardner.
+
+[Player Name]: (!!!)
+Variant 1
+
+[Player Name]: Welcome back!
+
+GRANT: Hey there! Do you put something sketch in your drinks? I swear I’m already getting cravings.
+
+[Player Name]: Hey, don’t go blabbing my secrets!
+
+GRANT: Alright, can you hook me up with a small Mango please?
+
+[Player Name]: You got it!
+Variant 2
+
+GRANT: [Player Name]! I need my fix, dude!
+Variant 3
+Lobby Conversation 1
+GRANt: [I told them, a custom solution makes no sense!]
+
+GRANT: [With their budget and staffing, something out of box is way more maintainable!]
+
+GRANT: Oop, hi [Player Name]!
+
+GRANT: Was a bit zoned out there.
+
+GRANT: What’s up!
+
+[Player Name]: Oh, I’m just making the rounds.
+
+[Player Name]: The shop’s kind of slow right now, so I figured I’d get to know my customers a little.
+
+[Player Name]: I’m super new in town, so I figured, what better place to make friends?
+
+GRANT: You know, I’m not gonna lie, most places this would be kinda weird.
+
+GRANT: But I dunno, [Player Name], something about you and this shop makes it feel genuine.
+
+GRANT: So, hi!
+
+GRANT: Nice to meet you without a counter in the way!
+
+[Player Name]: Nice to meet you!
+
+Player is prompted to ask questions about the NPC
+
+
+Where are you from?
+
+[Player Name]: Your accent’s got a really nice little twang to it. If you don’t mind me asking, where ya from, bud?
+
+GRANT: Oh yeah!
+
+GRANT: I’m from down South.
+
+GRANT: You know, yee haw and stuff
+
+GRANT: Is it really that noticeable?
+
+[Player Name]: I mean not really?
+
+[Player Name]: You just don’t sound like a beach bum, haha
+
+GRANT: You can take the cow out of the boy
+
+GRANT: But you can’t take the boy out of the cow
+
+GRANT: …
+
+GRANT: That’s not how that goes.
+
+[Player Name]: Noooo…
+
+GRANT: But you get what I mean, right?
+
+[Player Name]: Kinda?
+
+[Player Name]: Like, you can’t completely erase where you’re from
+
+[Player Name]: And who would want to, honestly?
+
+[Player Name]: That’s part of what makes you, you!
+
+GRANT: Yeah exactly!
+
+GRANT: Gotta say, this fox misses them some barbecue.
+
+GRANT: Just ain’t the same here.
+
+GRANT: Plenty of other good stuff in trade though, like super friendly boba shop owners
+
+GRANT: Whoooo give people free drinks?
+
+[Player Name]: Don’t push it
+
+[Player Name]: Haha
+
+GRANT: Hehe
+
+GRANT: It was worth a shot!
+
+[Player Name]: So what brings you this far out West?
+
+GRANT: Oh, you know
+
+GRANT: A bunch of things! Lots of work out here for a developer consultant. Nice, casual atmosphere.
+
+GRANT: I just reeeeally wanted to spend all my money on rent, you know?
+
+[Player Name]: Hah, same
+
+GRANT: But really, I think I just needed a change of pace. Maybe I’ll go back someday.
+
+GRANT: But right now, this is really working for me. I was starting to think about moving back, but
+
+[Player Name]: But?
+
+GRANT: Then I tried your tea! 
+
+GRANT: And everyone in the shop is so nice.
+
+GRANT: I feel like I’ve maybe got neighbors I like now!
+
+
+What do you do?
+
+[Player Name]: I see you on that big fancy looking businessy phone a lot
+
+[Player Name]: What exactly are ya doing?
+
+[Player Name]: Spooky government work?
+
+GRANT: I could tell you, but I’d literally have to kill you.
+
+[Player Name]:...
+
+[Player Name]: (He’s joking right)
+
+GRANT: I’m totally joking
+
+[Player Name]: (I have GOT to get better at reading sarcasm)
+
+GRANT: I’m just a software consultant haha
+
+[Player Name]:...
+
+[Player Name]: I’m not gonna lie I don’t know what that means
+
+GRANT: Honestly me neither sometimes!
+
+GRANT: Mostly people pay me and sometimes I make apps
+
+GRANT: But sometimes I tell them how to make apps
+
+GRANT: P much it.
+
+GRANT: Not the most interesting thing in the world, but it definitely pays the bills.
+
+GRANT: What were you doin’ before you started the best tea shop on this side of the beach, eh?
+
+[Player Name]: I was a public accountant, if you can believe it.
+
+GRANT: Oh god, that’s so many numbers!
+
+GRANT: And no tapioca!
+
+[Player Name]: Haha yeah
+
+[Player Name]: No digs on accountants, but this suits me way better.
+
+GRANT: Well, I’m sure as heck glad you made the jump.
+
+GRANT: Shoot, maybe I will someday, too.
+
+[Player Name]: Oh?
+
+[Player Name]: What would you rather do?
+
+GRANT: You know, I think writing video games would be really fun.
+
+[Player Name]: Have you ever tried it?
+
+GRANT: Nah, but I will someday!
+
+GRANT: If you can take the leap, I can, too!
+
+[Player Name]: That’s the spirit!
+
+How’s it going?
+
+GRANT: Honestly?
+
+GRANT: Things are looking up!
+
+GRANT: I kind of had a difficult year, but you gotta power through things, you know?
+
+GRANT: The more I started actually engaging with the people around me, the less alone I felt.
+
+GRANT: Ain’t it strange, [Player Name]? If you just reach out a little, it turns out the strangers around you were a little community just waitin’ for you to join.
+
+[Player Name]: You know, I’m definitely beginning to feel that here.
+
+
+Nikki
+
+Variant 1
+
+NIKKI: Hello again, [Player Name]!
+
+[Player Name]: Nikki! Back again?
+
+NIKKI: Yeah! Your tea is incredible, and it’s such a nice place to read or write!
+
+NIKKI: I have a feeling I’m going to be spending a lot of my breaks here.
+
+[Player Name]: Well, I’ll have to make sure your spot stays open!
+
+NIKKI: Brilliant! Can I get my usual, please?
+
+[Player Name]: Thai Tea with tapioca, right?
+
+NIKKI: You remembered!
+
+NIKKI: You’re a natural at this, I’m so glad you moved to town!
+
+[Player Name]: I’m trying my darndest!
+
+[Player Name]: A tea shop ought to be the kind of place where everyone can feel at home, you know?
+
+[Player Name]: So go post up, I’ll have your tea in just a sec.
+
+NIKKI: You’re the best, [Player Name]!
+Variant 2
+
+Variant 3
+
+Lobby Conversation 1
+
+[Player Name]: Hi Nikki, watcha reading?
+
+NIKKI: Eep!
+
+NIKKI: How are you so quiet? You’d think it’d be harder to sneak up on me with ears like this, but you seem to manage!
+
+[Player Name]: I’m sorry!
+
+[Player Name]: Didn’t mean to startle you!
+
+NIKKI: No, don’t worry about it, haha
+
+NIKKI: I just get really engrossed in stuff.
+
+NIKKI: I’m actually reading over my own manuscript!
+
+NIKKI: Or like,
+
+NIKKI: The chapter and a half I’ve managed to write
+
+[Player Name]: Oh, you’re a novelist?
+
+NIKKI: Can I say yes if I haven’t finished a book?
+
+[Player Name]: You wanna do it, right?
+
+NIKKI: Well, yeah.
+
+[Player Name]: And you’re taking steps to do it?
+
+NIKKI: I am, yeah!
+
+[Player Name]: Then you are ABSOLUTELY a novelist!
+
+NIKKI: …
+
+NIKKI: You know, I hadn’t thought of it like that.
+
+NIKKI: That… actually helps my confidence a lot!
+
+NIKKI: I know we just met a little while ago, but you’re a really good friend, [Player Name]!
+
+NIKKI: What did you need again?
+
+[Player Name]: I’m just trying to get to know everyone!
+
+Player is prompted to ask questions about the NPC
+ 
+What’s your book about?
+
+[Player Name]: You said you were writing a book, right?
+
+[Player Name]: Am I allowed to ask what it’s about?
+
+NIKKI: Ohohoho boy
+
+NIKKI: Are you sure you wanna go down that rabbit hole?
+
+NIKKI: I could talk for hours.
+
+[Player Name]: Well, I don’t have HOURS…
+
+[Player Name]: But I do absolutely wanna hear about it
+
+[Player Name]: Can you give me a synopsis?
+
+[Player Name]: A little summarino?
+
+NIKKI: Summarino?
+
+[Player Name]: Yeah, I knew when I said it that it was nothing. You know what I mean.
+
+NIKKI: Haha
+
+NIKKI: Okay so
+
+NIKKI: Have you heard of 
+
+Where are you from?
+
+[Player Name]: You seem really familiar with the area, Nikki.
+
+[Player Name]: Have you lived here awhile?
+
+NIKKI: Oh, kinda?
+
+NIKKI: I grew up in a suburb a city over, so I've kinda been AROUND here my whole life, I guess?
+
+NIKKI: Here-adjacent.
+
+NIKKI: Or something.
+
+NIKKI: I’ve visited other places, sure, but this is where home is for me.
+
+NIKKI: The weather is wonderful, and everybody in town is so welcoming and friendly.
+
+NIKKI: Just like you, [Player Name]! You fit right into our little community like a part we didn’t know we were missing.
+
+[Player Name]: (!!!)
+
+NIKKI: How about you, [Player Name]? Where was home before home was here?
+
+[Player Name]: Oh, nowhere super interesting, honestly.
+
+NIKKI: It doesn’t have to be all that interesting for me to be interested!
+
+NIKKI: It’s always nice to know your friends’ stories, after all.
+
+NIKKI: If nothing else, so I can steal them from you and use them in a book!
+
+[Player Name]: You know, that’s fair.
+
+[Player Name]: I grew up in the Midwest, so, like I said, nothing super exciting.
+
+[Player Name]: Mild summers, snowy winters, and lots of flat land.
+
+[Player Name]: So, nothing like here!
+
+[Player Name]: I had a nice, cushy little ‘safe’ job, and some decent savings.
+
+[Player Name]: It was fine, ‘till somebody reminded me of how bad I used to want a shop like this as a kid.
+
+NIKKI: Oh man.
+
+NIKKI: So you just like
+
+NIKKI: Up and left?
+
+[Player Name]: Pretty much, yeah.
+
+[Player Name]: Probably a little reckless, I know.
+
+NIKKI: You know, maybe
+
+NIKKI: But what’s worse, you know?
+
+NIKKI: You could have played it safe, but you would have always wondered what would have happened if you hadn’t.
+
+NIKKI: And I’m so freakin’ glad you did!
+
+NIKKI: I’m gonna make sure to tell everyone about this place.
+
+[Player Name]: Ahhh, you’re too much!
+
+How are you?
+
+[Player Name]: How are you today, Nikki?
+
+NIKKI: You know what?
+
+NIKKI: I was doing pretty well already.
+
+NIKKI: But having someone genuinely ask about you always brightens my day.
+
+NIKKI: So now I’m doing great!
+
+
+Sierra
+
+Intro
+[Player Name]: Hi, welcome to Positivitea, what can I get you?
+
+SIERRA: …
+
+SIERRA: ...
+
+[Player Name]: Hello?
+
+SIERRA: OH
+
+SIERRA: Hi!
+
+SIERRA: Sorry, I was just admiring your little friends on the shelf over there!
+
+SIERRA: That one looks like a [Plant 1 Name]. Is its name [Plant 1 Name]?
+
+[Player Name]: Actually yes?
+
+[Player Name]: How did you even guess that?
+
+SIERRA: I’ve got a nose for these things.
+
+SIERRA: I’m Sierra, by the way! I run the flower shop just down the road from you!
+
+[Player Name]: Ohhh right! I actually think I bought [Plant 1 Name] from you a few weeks back!
+
+SIERRA: Oh no way! No wonder it looked familiar. Hi lil fella!
+
+SIERRA: Oh right, you’re trying to do your job, I’m so sorry! Tea!
+
+[Player Name]: Tea!
+
+[Player Name]: But no worries, it’s wonderful to meet you!
+
+SIERRA: (!!!)
+
+SIERRA: Can I pleeeeease get
+
+SIERRA: …
+
+SIERRA: Heck.
+
+SIERRA: Okay new friend, I can’t choose between Milk Tea and a Melon Smoothie. Gimme a hand?
+
+Milk Tea Route
+
+[Player Name]: With a sweet attitude like yours, it’s gotta be milk tea!
+
+SIERRA: Oh stop it you, you’re gonna make me blush!
+
+[Player Name]: Hee hee!
+
+[Player Name]: What are we feeling for mix ins?
+
+SIERRA: You guys soak your tapioca in honey, yeah?
+
+[Player Name]: Is there any other way to do it?
+
+SIERRA: I knew I liked you! Hook me up, new friend!
+
+[Player Name]: Large or Small?
+
+SIERRA: Large tea for my tiny body! More tea per body!
+
+SIERRA: I’M EFFICIENT!
+
+[Player Name]: Hah! Go ahead and grab a seat, I’ll let ya know when it’s done.
+
+Melon Smoothie Route
+
+[Player Name]: It’s a hot day, something light and fresh will help keep you cool.
+
+[Player Name]: So let’s go with Melon!
+
+SIERRA: You’re so right, dog!
+
+[Player Name]: Actually, I’m a Muntjac.
+
+SIERRA: Boooooooo
+
+[Player Name]: I’m sorry, it was just low hanging fruit.
+
+SIERRA: Boooooooo.
+
+SIERRA:...
+
+SIERRA: CanIgetthatwithmelonflavoredjelliesplease
+
+[Player Name]: Size?
+
+SIERRA: Gimme a big one!
+
+[Player Name]: One large, be right with you!
+
+Variant 1
+SIERRA: Helloooo!
+
+[Player Name]: Hi, how are you?
+
+SIERRA: I’m doing great, thanks for asking!
+
+SIERRA: And how are you?
+
+[Player Name]: You know what?
+
+[Player Name]: I’m doing pretty great!
+
+[Player Name]: I’ve met a lot of new people today, more than I have since I moved here.
+
+[Player Name]: And I keep wondering, why did I keep to myself for so long?
+
+SIERRA: Oh, I totally know what you mean, though.
+
+SIERRA: I’m not exactly the most outgoing person in the world, but my shop forced me to get out of my comfort zone a little.
+
+SIERRA: So, so worth it.
+
+SIERRA: Plus, your tea is freaking great.
+
+SIERRA: Selfishly, I’m glad you’re here if only for that!
+
+[Player Name]: Thank yoooooou
+
+[Player Name]: Haha
+
+SIERRA: Mind making me a melon smoothie?
+
+SIERRA: I’m feelin’ fruity!
+
+[Player Name]: You bet! It’ll be out in just a sec.
+
+Variant 2
+
+Variant 3
+
+Lobby Conversation 1
+
+[Player Name]: Hi! How’s everything treating you?
+
+SIERRA: It’s all great!
+
+SIERRA: Super fancy fantastic!
+
+SIERRA: PHE
+
+SIERRA: NAH
+
+SIERA: MEH:
+
+SIERRA: NALL
+
+SIERRA: Basically it’s delicious.
+
+SIERRA: My blood is caffeine and sugar haha
+
+[Player Name]: Nice.
+
+[Player Name]: I’ve done my job, then!
+
+SIERRA: Thank you for the fast juice [Player Name]!
+
+SIERRA: Got a minute?
+
+SIERRA: Pop a squat here with me while I try to get my heart rate back under 140 BPM.
+
+[Player Name]: Sure!
+
+[Player Name]: (gotta make sure my customers don’t do into cardiac arrest)
+
+[Player Name]: (even a bunny’s gotta have limits?)
+
+[Player Name]: Soooo…
+
+Player is prompted to ask questions about the NPC
+
+What’s the story behind your shop?
+
+[Player Name]: So Sierra, how long have you been running your shop?
+
+SIERRA: Oh man, the time blows by, [Player Name]
+
+SIERRA: Let’s see.
+
+SIERRA: I wanna saaaaay
+
+SIERRA: Around 5 years?
+
+SIERRA: I was working part time at a home goods store to pay for school
+
+SIERRA: And one day, I was watching the owner and thought, you know what? I could do that.
+
+SIERRA: I managed to get a pretty solid loan, paid it off quick, and the rest is history!
+
+SIERRA: It turns out, lots of people love plants just as much as me!
+
+[Player Name]: I’m sure it helps that you love them so much yourself!
+
+[Player Name]: That kind of enthusiasm is downright infectious.
+
+SIERRA: Oh I absolutely think so!
+
+SIERRA: Your shop is the same way, you know?
+
+SIERRA: You can feel in every detail how much you love this place.
+
+SIERRA: And it makes it really easy for me to love it too!
+
+Where are you from?
+
+[Player Name]: Have you always lived around here?
+
+SIERRA: Nahhh
+
+SIERRA: I moved here for school and just never left
+
+SIERRA I’m from like,
+
+SIERRA: The actually cool part of the south?
+
+SIERRA: With nice people and good food and stuff.
+
+SIERRA:But the summers are stupid hot, you know?
+
+SIERRA: I kinda melt when it gets that toasty.
+
+[Player Name]: I definitely getcha.
+
+[Player Name]: Anywhere that it’s not enough to cook an egg on a car?
+
+[Player Name]: That is NOT a place for [Player Name].
+
+[Player Name]: Well, I’m glad you’re here!
+
+[Player Name]: My shop wouldn’t be the same without your plants.
+
+[Player Name]: Or your lil bunny face!
+
+SIERRA: !!!
+
+How are you?
+
+[Player Name]: How ya hangin’?
+
+SIERRA: Well, now that you mention it, I think the caffeine is starting to wear off a bit
+
+SIERRA: I can’t smell colors anymore.
+
+SIERRA: Which is probably a good thing!
+
+[Player Name]: I’ll be honest, I didn’t really expect to need a cutoff policy at my boba shop
+
+[Player Name]: Ma’am, you’ve had enough!
+
+SIERRA: Aahahaha
+
+SIERRA: Ma’am! Put the tapioca down!
+
+SIERRA: I’m gonna have to take your keys!
+
+SIERRA: I can quit anytime I want! Arrrgh!
+Sal
+
+Intro
+
+[Player Name]: Welcome to Positivitea, what can I get you?
+
+Sal: Oop, one sec, your menu isn’t on Maps yet and I haven’t had time to rehearse my order
+
+Sal: Uhhhh
+
+Sal: A Thai Tea?
+
+Sal: No Wait. I came in here because I was hungry OOPS
+
+[Player Name]: We’ve got snacks too!
+
+Sal: Yes I can see!
+
+Sal: I love all the macaron colors!
+
+[Player Name]: Thank you! I think they taste just as bright as they look!
+
+Sal: Well, I’m sold!
+
+Sal: Oh wait
+
+Sal: That tiramisu looks incredible, too…
+
+Sal: Oh geez
+
+Macaron Route
+
+[Player Name]: I think I’d try the Macaron if I were you! The tiramisu is great too, but if you’re unsure, you can’t beat the pure sweetness of a macaron. 
+
+Sal: You know what? You’re right!
+
+Sal: I’m into it.
+
+Sal: You ever notice how people who make travelling part of their personality get so uppity about foods like macarons?
+
+[Player Name]: Ahaha, right??
+
+[Player Name]: Ohoho, Papa paid for me to study in Paaariiiis.
+
+Sal: Hah!
+
+Sal: Have you ever been to Paaaariiiiis?
+
+Sal: You haaaave to go. It was life changing.
+
+Sal: You haven’t had proper macaron unless you’ve had them in Paaariiiis.
+
+[Player Name]: Hah! Alright Count Reginald von Moneybags,
+
+[Player Name]: How many do you want?
+
+Sal: Can I get one of each color, please?
+
+[Player Name]: Say no more! I’ll have a fat stack out to you in just a sec.
+
+Sal: Thank you!
+
+Tiramisu Route 
+
+[Player Name]: Macaron can be a little sweet if that’s not exactly what you want. How about a slice of Tiramisu?
+
+Sal: You know what, you’re right! Hook me up with some of those coffee soaked bad boys.
+
+[Player Name]: Ladyfingers for DAYS, son!
+
+Sal: Ah yes, some ladyfingers for a post-luncheon dessert.
+
+[Player Name]: Induuuubitably
+
+[Player Name]: Haha
+
+[Player Name]: Such a snooty name for such a basic lil cookie
+
+[Player Name]: Lemme get you a slice, just a sec.
+
+Sal: Thanks so much!
+
+
+Variant 1
+
+SAL: Yo, [Player Name]!
+
+[Player Name]: Hey there, Sal! You got the menu down this time?
+
+SAL: Hah, yeah.
+
+SAL: I studied up on the way over!
+
+[Player Name]: Niiiiice haha
+
+[Player Name]: What’re we having today?
+
+SAL: I’m thinking a drink this time
+
+SAL: Can I get a thai tea?
+
+[Player Name]: Man, those are popular!
+
+[Player Name]: Boba okay with that?
+
+SAL: The more honey, the better!
+
+[Player Name]: That’s a Texas-Sized 10-4 good buddy!
+
+SAL: Over and out!
+
+SAL: Haha
+Variant 2
+
+Variant 3
+
+Lobby Conversation 1
+
+[Player Name]: Yo, Sal!
+
+[Player Name]: How’s my favorite customer who is also a bearded dragon?
+
+SAL:...
+
+SAL: You got a lot of those?
+
+[Player Name]: I mean
+
+[Player Name]: Not yet?
+
+[Player Name]: But even if I had hundreds of bearded dragon customers
+
+[Player Name]: I’m talkin bearded dragon customers out the DOOR
+
+[Player Name]: You’d still be number one!
+
+Sal: Haha
+
+Sal: Awwww
+
+Sal: You know you don’t have to flatter me right? I’m already hooked on your food.
+
+Sal: Anyway, did you want to talk about something?
+
+[Player Name]: I’m making the rounds, you know?
+
+[Player Name]: Getting to know everybody.
+
+Sal: Oh that’s nice!
+
+Sal: Ask away!
+
+Player is prompted to ask questions about the NPC
+
+What exactly do you do?
+
+[Player Name]: Is that a guitar case you carry around?
+
+SAL: Oh yeah, that’s my best friend!
+
+[Player Name]: ?
+
+SAL: I travel a lot for gigs, and this is my favorite guitar.
+
+SAL: I wouldn’t know what to do if I lost it
+
+SAL: And you never know when you might wanna just burst into song on the street corner, you know?
+
+[Player Name]: Oh wait what?
+
+[Player Name]: That’s so cool! Are you on Stoatify?
+
+SAL: And Houndcloud!
+
+[Player Name]: Ohhh man
+
+[Player Name]: Don’t be surprised if you hear yourself coming through the speakers the next time you come in!
+
+SAL: Ohhh man
+
+SAL: I’m flattered!
+
+Where are you from?
+
+[Player Name]: You look like you’ve seen a lot of the world,Sal!
+
+[Player Name]: Where did this whole music journey begin?
+
+SAL: Not too far away, all things considered.
+
+[Player Name]: Oh yeah?
+
+SAL: Mmhmm
+
+SAL: Just a nice little town in Sonora
+
+[Player Name]: Oh dang, Mexico!
+
+SAL: Haha
+
+SAL: Yeah, out in the desert!
+
+[Player Name]: Ooooof
+
+[Player Name]: Too hot for me
+
+SAL: I mean it’s a dry heat!
+
+SAL: Not as bad as you’d think
+
+SAL: Plus like
+
+SAL: I’m a bearded dragon, so. Cold blood and all that.
+
+SAL: Anyway, I landed a work visa and I’ve been on the road ever since!
+
+[Player Name]: Oh man, everyone back home must miss the heck out of you!
+
+SAL: Oh for sure.
+
+SAL: But I’m sure your folks back wherever you’re from miss you, too!
+
+[Player Name]: Yeah, but they know I’m out following my dreams and stuff, so it’s cool.
+
+SAL: Exactly! I’ll see them again one day. And until then, every new friend I make makes a city into a new home, you know?
+
+SAL: I like to find little shops like this and be a part of the communities that grow up around them.
+
+SAL: This is already one of my favorites.
+
+How are you?
+
+[Player Name]: How are you doing, Mr. Music Man?
+
+SAL: I’m alright!
+
+SAL: My bank account’s looked better, but hey, nobody said it’d be easy.
+
+SAL: I’ll make it big one of these days.
+
+SAL: But in the meantime, I don’t mind going gig to gig. As long as people are enjoying my music, I don’t need a lot.
+Kostja
+Intro
+
+ [Player Name]: Welcome in!
+
+Kostja: Hallo!
+
+Kostja: Oh my god
+
+Kostja: This place is even cuter than Nikki made it sound!
+
+[Player Name]: Oh thank you!
+
+[Player Name]: I love your necklace!
+
+Kostja: Oh thank you!
+
+Kostja: I made it myself! 
+
+[Player Name]: Oh that’s so cool! Are you a jewelry maker?
+
+Kostja: I am!
+
+Kostja: I’ve got a little boutique up the street, and our Betsy page is really taking off online!
+
+[Player Name]: Wonderful! I’ll have to get the link from you.
+
+[Player Name]: Local business supports local business, am I right?
+
+Kostja: Oh yes!
+
+Kostja: Tea for jewelry, I love it!
+
+[Player Name]: Forget money, we bartering out here!
+
+[Player Name]: Abolish fiat currency or whatever!
+
+[Player Name]: Haha
+
+Kostja: Haha
+
+Kostja: Okay, so I’m looking at your bakery here
+
+Kostja: Is that fresh banana bread?
+
+[Player Name]: Always! I baked it this morning!
+
+Kostja: Ooooh.
+
+Kostja: But those brownies look wonderful too.
+
+Kostja: Agh.
+
+Kostja: Usually I just make my girlfriend make these choices for me…
+
+[Player Name]: (Ahhh, indecision, The bane of millennials everywhere.)
+
+Banana Bread Route 
+
+[Player Name]: Why not snag a piece of banana bread for now and try the brownies next time?
+
+Kostja: Yay! Thank you decisive person!
+
+Kostja: You have saved my life.
+
+[Player Name]: (And made sure they’ll come back again! Niiiice haha)
+
+[Player Name]: Any time! I love throwing food at people!
+
+[Player Name]: Well.
+
+[Player Name]: Not literally throwing.
+
+[Player Name]: Unless you’re into that.
+
+[Player Name]: Then it’s extra. I guess.
+
+Kostja: I’ll stick to not-projectile banana bread, please!
+
+[Player Name]: Coming right up!
+
+Brownie Route
+
+[Player Name]: You know what? Treat yourself!
+
+[Player Name]: Snag that brownie!
+
+Kostja: An enabler!
+
+Kostja: My hero!
+
+Kostja: Make that two, will you? I want to take one to go.
+
+[Player Name]: You bet! Just a sec.
+
+Variant 1
+Kostja: Now I know you were just thinking to yourself
+
+Kostja: Man, I miss Kostja!
+
+Kostja: I wish they would stop back by my shop and order more!
+
+Kostja: Well wish no longer!
+
+Kostja: Here they are!
+
+Kostja: I’m They!
+
+[Player Name]: Yes, I know
+
+[Player Name]: Haha
+
+[Player Name]: Hello, Kostja! What can I get you?
+
+Kostja: Hmmmm.
+
+Kostja: You know, you’d think as an NPC in a game where pretty much all I do is orders stuff from you, I’d have my order figured out!
+
+Kostja: But here we are.
+
+Kostja: Could I geeeeet
+
+Kostja: Hmmmmmmmmmmmmmm.
+
+Kostja: Hmmmmmmmmmmmmmmmmmmmmmm.
+
+[Player Name]: (What the heck? Game?)
+
+Kostja: Milk tea please!
+
+[Player Name]: C-Coming right out!
+
+[Player Name]: Size? Mix-ins?
+
+Kostja: Large, with boba!
+
+[Player Name]: You bet!
+
+Variant 2
+
+Variant 3
+
+Lobby Conversation 1
+
+
