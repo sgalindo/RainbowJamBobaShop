@@ -10,6 +10,7 @@ public class PlayerMovement : MonoBehaviour
     private Vector2 movementInput; // Input vector. Holds both horizontal and vertical inputs
     private Rigidbody2D rb;
     private SpriteRenderer playerSprite;
+    private Animator animator;
 
     // Start is called before the first frame update
     void Start()
@@ -17,6 +18,7 @@ public class PlayerMovement : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         playerSprite = GetComponent<SpriteRenderer>();
         movementInput = Vector2.zero;
+        animator = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -39,10 +41,13 @@ public class PlayerMovement : MonoBehaviour
         if (movementInput != Vector2.zero)
         {
             MovePlayer();
-            FlipPlayer();
+            PlayMoveAnimation();
         }
         else
+        {
             rb.velocity = Vector2.zero;
+            animator.SetLayerWeight(1, 0);
+        }
     }
 
     // Moves player by setting its Rigidbody2D's velocity to its input vector (direction) * moveSpeed
@@ -51,12 +56,10 @@ public class PlayerMovement : MonoBehaviour
         rb.velocity = movementInput * moveSpeed;
     }
 
-    // Flips player sprite if moving the to the left.
-    private void FlipPlayer()
+    private void PlayMoveAnimation()
     {
-        if (movementInput.x < 0f)
-            playerSprite.flipX = true;
-        else if (movementInput.x > 0f)
-            playerSprite.flipX = false;
+        animator.SetFloat("DirectionX", movementInput.x);
+        animator.SetFloat("DirectionY", movementInput.y);
+        animator.SetLayerWeight(1, 1);
     }
 }
