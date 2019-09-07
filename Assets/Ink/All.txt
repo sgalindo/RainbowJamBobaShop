@@ -1,4 +1,4 @@
-When I was just a kid, Mom used to take me and my sister out for bubble tea on Saturdays after she got home from her morning shift. It was something I looked forward to every week. I’d open the doors wide and see all my friends, and sometimes, the shop owner would even have my favorite order ready! It was the one time and place we knew we could come be where all the homework and chores of the outside world couldn’t keep us down.
+﻿When I was just a kid, Mom used to take me and my sister out for bubble tea on Saturdays after she got home from her morning shift. It was something I looked forward to every week. I’d open the doors wide and see all my friends, and sometimes, the shop owner would even have my favorite order ready! It was the one time and place we knew we could come be where all the homework and chores of the outside world couldn’t keep us down.
 
 I remember the old shopkeeper used to ask every customer how they were, and you could tell he really meant it. And we all answered honestly. We may have lived in a pretty large city, but in that shop, we were a tiny, tight-knit community. I always told him I was gonna open a shop just like his one day.
 
@@ -1138,8 +1138,7 @@ SAL: I’ll make it big one of these days.
 SAL: But in the meantime, I don’t mind going gig to gig. As long as people are enjoying my music, I don’t need a lot.
 Kostja
 Intro
-
- [Player Name]: Welcome in!
+[Player Name]: Welcome in!
 
 Kostja: Hallo!
 
