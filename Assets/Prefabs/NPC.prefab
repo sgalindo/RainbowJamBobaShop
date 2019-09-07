@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 2199096406178222451}
   - component: {fileID: 2199096406178222452}
   - component: {fileID: 2199096406178222454}
+  - component: {fileID: 4879590234449872416}
   m_Layer: 0
   m_Name: NPC
   m_TagString: NPC
@@ -100,6 +101,18 @@ MonoBehaviour:
   inkFileBoba: {fileID: 0}
   inkFileLobby: {fileID: 0}
   speed: 0.05
+--- !u!114 &4879590234449872416
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2199096406178222455}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a65eaa9ece4de974798d85217efa6463, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8704670378306435473
 GameObject:
   m_ObjectHideFlags: 0

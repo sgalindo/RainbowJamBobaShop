@@ -6,27 +6,56 @@ public class NPC : MonoBehaviour
 {
     public enum State { Intro, Waiting, Boba, Lobby };
     public State currentState;
-    private bool speaking = false;
-    private bool endOfDialogue = false;
+    protected bool interactable = false;
+    protected bool speaking = false;
+    protected bool endOfDialogue = false;
 
-    private bool hasOrder = false;
+    protected bool hasOrder = false;
     public Boba heldBoba = null;
 
     [HideInInspector] public DialogueSystem dialogueSystem;
     [HideInInspector] protected DialogueManager dialogueManager;
 
-    private void Awake()
+    protected NPCMovement movement;
+    protected Transform counterPosition;
+    [SerializeField] protected Transform chairPosition;
+    protected bool atDestination = false;
+    protected bool walking = false;
+
+    protected void Awake()
     {
         dialogueSystem = GetComponent<DialogueSystem>();
         dialogueManager = (DialogueManager)FindObjectOfType(typeof(DialogueManager));
+        movement = GetComponent<NPCMovement>();
+        counterPosition = GameObject.Find("CounterPosition").transform;
     }
 
     void Start()
     {
+        IntroStart();
         ChangeState(State.Intro);
     }
 
-    private void Update()
+    private void StateStart()
+    {
+        switch (currentState)
+        {
+            case State.Intro:
+                IntroStart();
+                break;
+            case State.Waiting:
+                WaitingStart();
+                break;
+            case State.Boba:
+                BobaStart();
+                break;
+            case State.Lobby:
+                LobbyStart();
+                break;
+        }
+    }
+
+    protected void Update()
     {
         switch (currentState)
         {
@@ -45,25 +74,49 @@ public class NPC : MonoBehaviour
         }
     }
 
-    private void IntroUpdate()
+    protected virtual void IntroStart()
+    {
+        interactable = false;
+        atDestination = false;
+    }
+
+    protected virtual void IntroUpdate()
     {
         if (endOfDialogue)
             ChangeState(State.Waiting);
     }
 
-    private void WaitingUpdate()
+    protected virtual void WaitingStart()
+    {
+        interactable = false;
+        atDestination = false;
+    }
+
+    protected virtual void WaitingUpdate()
     {
         if (endOfDialogue)
             ChangeState(State.Boba);
     }
 
-    private void BobaUpdate()
+    protected virtual void BobaStart()
+    {
+        interactable = false;
+        atDestination = false;
+    }
+
+    protected virtual void BobaUpdate()
     {
         if (endOfDialogue)
             ChangeState(State.Lobby);
     }
 
-    private void LobbyUpdate()
+    protected virtual void LobbyStart()
+    {
+        interactable = false;
+        atDestination = false;
+    }
+
+    protected virtual void LobbyUpdate()
     {
         if (endOfDialogue)
             ChangeState(State.Lobby);
@@ -71,6 +124,9 @@ public class NPC : MonoBehaviour
 
     public void Interact(PlayerInteract interactor)
     {
+        if (!interactable)
+            return;
+
         switch (currentState)
         {
             case State.Intro:
@@ -89,7 +145,7 @@ public class NPC : MonoBehaviour
     }
 
     // Interact without any prerequisites
-    private void InteractNoReq(PlayerInteract interactor)
+    protected virtual void InteractNoReq(PlayerInteract interactor)
     {
         if (!speaking && !endOfDialogue)
         {
@@ -103,7 +159,7 @@ public class NPC : MonoBehaviour
     }
 
     // Interact on the condition that the player has an order for the NPC
-    private void InteractReq(PlayerInteract interactor)
+    protected virtual void InteractReq(PlayerInteract interactor)
     {
         if (!hasOrder)
         {
@@ -119,7 +175,7 @@ public class NPC : MonoBehaviour
             InteractNoReq(interactor);
     }
 
-    private void EndOfDialogue(bool disableMovement)
+    protected void EndOfDialogue(bool disableMovement)
     {
         speaking = disableMovement;
         endOfDialogue = true;
@@ -131,6 +187,7 @@ public class NPC : MonoBehaviour
         currentState = newState;
         endOfDialogue = false;
         dialogueSystem.ChangeStory(currentState);
+        StateStart();
     }
 
     public void NextState()
@@ -147,6 +204,29 @@ public class NPC : MonoBehaviour
                 ChangeState(State.Lobby);
                 break;
         }
+        StateStart();
     }
-    
+
+    protected void StepToDestination(Transform destination)
+    {
+        if (!atDestination && !walking)
+        {
+            movement.MoveTo(destination);
+            movement.destinationReached += ReachedDestination;
+            walking = true;
+        }
+    }
+
+    private void ReachedDestination()
+    {
+        atDestination = true;
+        ResetWalking();
+        movement.destinationReached -= ReachedDestination;
+    }
+
+    private void ResetWalking()
+    {
+        walking = false;
+        interactable = true;
+    }
 }
