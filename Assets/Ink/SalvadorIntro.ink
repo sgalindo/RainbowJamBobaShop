@@ -1,4 +1,4 @@
-Emcee: Welcome to Positivitea, what can I get you?
+﻿Emcee: Welcome to Positivitea, what can I get you?
 
 Sal: Oop, one sec, your menu isn’t on Maps yet and I haven’t had time to rehearse my order
 
@@ -12,7 +12,7 @@ Emcee: We’ve got snacks too!
 
 Sal: Yes I can see!
 
-Sal: I love all the macaron colors!
+Sal: I love all the tea colors!
 
 Emcee: Thank you! I think they taste just as bright as they look!
 
@@ -20,19 +20,19 @@ Sal: Well, I’m sold!
 
 Sal: Oh wait
 
-Sal: That tiramisu looks incredible, too…
+Sal: Those smoothies looks incredible, too…
 
 Sal: Oh geez
 
-* [Macarons!]
+* [Tea!]
 
-    Emcee: I think I’d try the Macaron if I were you! The tiramisu is great too, but if you’re unsure, you can’t beat the pure sweetness of a macaron. 
+    Emcee: I think I’d try the Milk Tea if I were you! The smoothiesis great too, but if you’re unsure, you can’t beat the classics. 
 
     Sal: You know what? You’re right!
 
     Sal: I’m into it.
 
-    Sal: You ever notice how people who make travelling part of their personality get so uppity about foods like macarons?
+    Sal: You ever notice how people who make travelling part of their personality get so uppity about foods like tea
 
     Emcee: Ahaha, right??
 
@@ -48,31 +48,31 @@ Sal: Oh geez
 
     Emcee: Hah! Alright Count Reginald von Moneybags,
 
-    Emcee: How many do you want?
+    Emcee: What size?
 
-    Sal: Can I get one of each color, please?
+    Sal: Can I get a small, please?
 
     Emcee: Say no more! I’ll have a fat stack out to you in just a sec.
 
     Sal: Thank you!
 
-* [Tiramisu!]
+* [Smoothie!]
 
-    Emcee: Macaron can be a little sweet if that’s not exactly what you want. How about a slice of Tiramisu?
+    Emcee: Tea can be a little strong if that’s not exactly what you want. How about a berry smoothie?
 
-    Sal: You know what, you’re right! Hook me up with some of those coffee soaked bad boys.
+    Sal: You know what, you’re right! Hook me up with some of those bad boys.
 
-    Emcee: Ladyfingers for DAYS, son!
+    Emcee: Fruit servings, son!
 
-    Sal: Ah yes, some ladyfingers for a post-luncheon dessert.
+    Sal: Ah yes, some fruits for a post-luncheon dessert.
 
     Emcee: Induuuubitably
 
     Emcee: Haha
 
-    Emcee: Such a snooty name for such a basic lil cookie
+    Emcee: Luncheon is a funny word
 
-    Emcee: Lemme get you a slice, just a sec.
+    Emcee: Lemme get you one, just a sec.
 
     Sal: Thanks so much!
 -> END
