@@ -7,7 +7,7 @@ public class NPCMovement : MonoBehaviour
     public delegate void MovementDelegate();
     public event MovementDelegate destinationReached = delegate { };
 
-    private Transform destination;
+    private Vector3 destination;
     public float moveSpeed;
     private Animator animator;
 
@@ -22,28 +22,28 @@ public class NPCMovement : MonoBehaviour
 
     private void FixedUpdate()
     {
-        if (moving && destination != null)
+        if (moving && destination != Vector3.zero)
         {
-            if (transform.position != destination.position)
+            if (transform.position != destination)
             {
                 PlayMoveAnimation();
-                transform.position = Vector2.MoveTowards(transform.position, destination.position, moveSpeed);
+                transform.position = Vector2.MoveTowards(transform.position, destination, moveSpeed);
             }
             else
             {
                 moving = false;
-                destination = null;
+                destination = Vector3.zero;
                 animator.SetLayerWeight(1, 0);
                 destinationReached();
             }
         }
     }
 
-    public void MoveTo(Transform dest)
+    public void MoveTo(Vector3 dest)
     {
         destination = dest;
         moving = true;
-        moveDirection = new Vector2(dest.position.x - transform.position.x, dest.position.y - transform.position.y).normalized;
+        moveDirection = new Vector2(dest.x - transform.position.x, dest.y - transform.position.y).normalized;
     }
 
     private void PlayMoveAnimation()

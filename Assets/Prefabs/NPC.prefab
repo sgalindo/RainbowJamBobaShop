@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 2199096406178222452}
   - component: {fileID: 2199096406178222454}
   - component: {fileID: 4879590234449872416}
+  - component: {fileID: 3344959672401597496}
   m_Layer: 0
   m_Name: NPC
   m_TagString: NPC
@@ -75,7 +76,7 @@ SpriteRenderer:
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 132d219110f5688449e07be5f1095589, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 1
+  m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
   m_Size: {x: 1.28, y: 2.56}
@@ -98,9 +99,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   inkFileIntro: {fileID: 0}
   inkFileWaiting: {fileID: 0}
-  inkFileBoba: {fileID: 0}
   inkFileLobby: {fileID: 0}
-  speed: 0.05
+  inkFileLobbyLoop: {fileID: 0}
+  speed: 0.025
 --- !u!114 &4879590234449872416
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -113,6 +114,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a65eaa9ece4de974798d85217efa6463, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveSpeed: 0.05
+--- !u!95 &3344959672401597496
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2199096406178222455}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &8704670378306435473
 GameObject:
   m_ObjectHideFlags: 0

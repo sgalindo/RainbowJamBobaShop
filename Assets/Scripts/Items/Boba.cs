@@ -4,16 +4,11 @@ using UnityEngine;
 
 public class Boba
 {
-    public bool ready;
-    public string size;
-    public string pearls;
-    public string flavor;
+    public enum State { Empty, Pearls, Ready }
+    public State state;
 
     public Boba()
     {
-        size = "";
-        flavor = "";
-        pearls = "";
-        ready = false;
+        state = State.Empty;
     }
 }

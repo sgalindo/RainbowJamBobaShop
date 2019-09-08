@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class PearlDispenser : Machine
 {
-    public string pearlType;
 
     public override bool Interact(PlayerInteract interactor)
     {
@@ -14,18 +13,15 @@ public class PearlDispenser : Machine
         base.Interact(interactor);
 
         if (!interacting)
-            interacting = true;
-        else
-        {
-            interacting = false;
-            DispensePearls(interactor.heldBoba, pearlType);
+        { 
+            DispensePearls(interactor.heldBoba);
         }
 
-        return interacting;
+        return false;
     }
 
-    private void DispensePearls(Boba boba, string pearlType)
+    private void DispensePearls(Boba boba)
     {
-        boba.pearls = pearlType;
+        boba.state = Boba.State.Pearls;
     }
 }

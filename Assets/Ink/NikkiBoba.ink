@@ -4,8 +4,6 @@ NIKKI: Oh!
 
 NIKKI: Sorry, I totally zoned in. Thank you so much!
 
-NIKKI takes a fucking sip, babes.
-
 NIKKI: Oh.
 
 NIKKI: Oh my god.

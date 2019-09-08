@@ -4,28 +4,23 @@ using UnityEngine;
 
 public class CupDispenser : Machine
 {
-    public string size;
 
     public override bool Interact(PlayerInteract interactor)
     {
         base.Interact(interactor);
 
-        if (!interacting)
-            interacting = true;
-        else
-        {
-            interacting = false;
+        if (!interacting && interactor.heldBoba == null)
+        { 
             interactor.heldBoba = DispenseCup();
         }
 
-        return interacting;
+        return false;
     }
 
     private Boba DispenseCup()
     {
         Boba boba = new Boba();
-        boba.size = size;
-        return boba; // TEST
+        return boba;
     }
 
 }

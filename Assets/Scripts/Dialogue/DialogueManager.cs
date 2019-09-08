@@ -85,7 +85,7 @@ public class DialogueManager : MonoBehaviour
             PopulateChoices();
         }
         // Otherwise, we're at end of story and we can close the dialogue.
-        else
+        else if (choices.Count == 0)
         {
             CloseDialogue();
             return false;
@@ -129,8 +129,10 @@ public class DialogueManager : MonoBehaviour
         for (int i = 0; i < story.currentChoices.Count; i++)
         {
             GameObject btn = Instantiate(buttonPrefab, choicePanel.transform);
-            btn.transform.Find("ChoiceText").GetComponent<TextMeshProUGUI>().text = story.currentChoices[i].text;
-
+            TextMeshProUGUI gui = btn.transform.Find("ChoiceText").GetComponent<TextMeshProUGUI>();
+            gui.text = story.currentChoices[i].text;
+            gui.enableAutoSizing = false;
+            gui.enableAutoSizing = true;
             ChoiceButton choiceBtn = btn.GetComponent<ChoiceButton>();
             choiceBtn.index = i; // Set button's choice index
             choiceBtn.buttonAction += SelectButton; // Subscribe to buttonAction event
@@ -154,6 +156,6 @@ public class DialogueManager : MonoBehaviour
         // Clear choices list and hide panel.
         choices.Clear();
         choicePanel.SetActive(false);
-
+        NextSentence();
     }
 }

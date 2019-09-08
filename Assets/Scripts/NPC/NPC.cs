@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class NPC : MonoBehaviour
 {
-    public enum State { Intro, Waiting, Boba, Lobby };
+    public enum State { Intro, Waiting, Lobby, LobbyLoop };
     public State currentState;
-    protected bool interactable = false;
+    public bool interactable = false;
     protected bool speaking = false;
     protected bool endOfDialogue = false;
 
@@ -17,19 +17,24 @@ public class NPC : MonoBehaviour
     [HideInInspector] protected DialogueManager dialogueManager;
 
     protected NPCMovement movement;
-    protected Transform counterPosition;
-    [SerializeField] protected Transform chairPosition;
+    protected Vector3 counterPosition;
+
+    [SerializeField] protected Vector3 chairPosition;
     protected bool atDestination = false;
     protected bool walking = false;
+    public bool done = false;
 
     private Animator animator;
+
+    private GameManager gm;
 
     protected void Awake()
     {
         dialogueSystem = GetComponent<DialogueSystem>();
         dialogueManager = (DialogueManager)FindObjectOfType(typeof(DialogueManager));
         movement = GetComponent<NPCMovement>();
-        counterPosition = GameObject.Find("CounterPosition").transform;
+        counterPosition = GameObject.Find("CounterPosition").transform.position;
+        gm = FindObjectOfType<GameManager>();
         animator = GetComponent<Animator>();
     }
 
@@ -49,11 +54,11 @@ public class NPC : MonoBehaviour
             case State.Waiting:
                 WaitingStart();
                 break;
-            case State.Boba:
-                BobaStart();
-                break;
             case State.Lobby:
                 LobbyStart();
+                break;
+            case State.LobbyLoop:
+                LobbyLoopStart();
                 break;
         }
     }
@@ -68,11 +73,11 @@ public class NPC : MonoBehaviour
             case State.Waiting:
                 WaitingUpdate();
                 break;
-            case State.Boba:
-                BobaUpdate();
-                break;
             case State.Lobby:
                 LobbyUpdate();
+                break;
+            case State.LobbyLoop:
+                LobbyLoopUpdate();
                 break;
         }
     }
@@ -100,32 +105,36 @@ public class NPC : MonoBehaviour
         if (atDestination)
             animator.SetLayerWeight(2, 1);
         if (endOfDialogue)
-            ChangeState(State.Boba);
-    }
-
-    protected virtual void BobaStart()
-    {
-        interactable = false;
-        animator.SetLayerWeight(2, 0);
-        atDestination = false;
-    }
-
-    protected virtual void BobaUpdate()
-    {
-        if (endOfDialogue)
             ChangeState(State.Lobby);
     }
 
     protected virtual void LobbyStart()
     {
-        interactable = false;
+        interactable = true;
         atDestination = false;
     }
 
     protected virtual void LobbyUpdate()
     {
         if (endOfDialogue)
-            ChangeState(State.Lobby);
+            ChangeState(State.LobbyLoop);
+    }
+
+    protected virtual void LobbyLoopStart()
+    {
+        interactable = true;
+        atDestination = false;
+        if (!done)
+        {
+            done = true;
+            gm.FinishNPC();
+        }
+    }
+
+    protected virtual void LobbyLoopUpdate()
+    {
+        if (endOfDialogue)
+            ChangeState(State.LobbyLoop);
     }
 
     public void Interact(PlayerInteract interactor)
@@ -141,10 +150,10 @@ public class NPC : MonoBehaviour
             case State.Waiting:
                 InteractReq(interactor);
                 break;
-            case State.Boba:
+            case State.Lobby:
                 InteractNoReq(interactor);
                 break;
-            case State.Lobby:
+            case State.LobbyLoop:
                 InteractNoReq(interactor);
                 break;
         }
@@ -169,7 +178,7 @@ public class NPC : MonoBehaviour
     {
         if (!hasOrder)
         {
-            if (interactor.heldBoba != null && interactor.heldBoba.ready)
+            if (interactor.heldBoba != null && interactor.heldBoba.state == Boba.State.Ready)
             {
                 heldBoba = interactor.heldBoba;
                 interactor.heldBoba = null;
@@ -204,16 +213,16 @@ public class NPC : MonoBehaviour
                 ChangeState(State.Waiting);
                 break;
             case State.Waiting:
-                ChangeState(State.Boba);
-                break;
-            case State.Boba:
                 ChangeState(State.Lobby);
+                break;
+            case State.Lobby:
+                ChangeState(State.LobbyLoop);
                 break;
         }
         StateStart();
     }
 
-    protected void StepToDestination(Transform destination)
+    protected void StepToDestination(Vector3 destination)
     {
         if (!atDestination && !walking)
         {

@@ -11,21 +11,21 @@ public class DialogueSystem : MonoBehaviour
     [Tooltip("Name of ink file for starting dialogue.")]
     public TextAsset inkFileIntro;
 
-    [Tooltip("Name of ink file for waiting dialogue.")]
-    public TextAsset inkFileWaiting;
-
     [Tooltip("Name of ink file for dialogue after receiving boba.")]
-    public TextAsset inkFileBoba;
+    public TextAsset inkFileWaiting;
 
     [Tooltip("Name of ink file for lobby dialogue.")]
     public TextAsset inkFileLobby;
+
+    [Tooltip("Name of ink file for LOOPING lobby dialogue.")]
+    public TextAsset inkFileLobbyLoop;
 
     [HideInInspector] public Story story;
 
     [Tooltip("Rate (in seconds) at which letters are typed out.")]
     public float speed = 0.05f;
 
-    public void ChangeStory(NPC.State state)
+    public bool ChangeStory(NPC.State state)
     {
         switch (state)
         {
@@ -33,14 +33,21 @@ public class DialogueSystem : MonoBehaviour
                 story = new Story(inkFileIntro.text);
                 break;
             case NPC.State.Waiting:
+                if (inkFileWaiting == null) return false;
                 story = new Story(inkFileWaiting.text);
-                break;
-            case NPC.State.Boba:
-                story = new Story(inkFileBoba.text);
                 break;
             case NPC.State.Lobby:
                 story = new Story(inkFileLobby.text);
                 break;
+            case NPC.State.LobbyLoop:
+                story = new Story(inkFileLobbyLoop.text);
+                break;
         }
+        return true;
+    }
+
+    public void CreateStory(string txt)
+    {
+        story = new Story(txt);
     }
 }

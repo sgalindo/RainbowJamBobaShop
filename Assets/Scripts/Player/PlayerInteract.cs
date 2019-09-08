@@ -46,9 +46,14 @@ public class PlayerInteract : MonoBehaviour
 
         // Interact depending on if interactable is NPC or machine
         if (npc)
+        {
             npc.Interact(this);
+        }
         else if (machine)
+        {
             interacting = machine.Interact(this);
+            machine = null;
+        }
     }
 
     // When something enters trigger collider, check if it is interactable.
@@ -96,5 +101,7 @@ public class PlayerInteract : MonoBehaviour
     private void SetMovement(bool enabled)
     {
         interacting = enabled;
+        if (!enabled)
+            npc = null;
     }
 }
