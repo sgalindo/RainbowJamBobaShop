@@ -9,6 +9,8 @@ public class MainMenu : MonoBehaviour
     {
         if (Input.GetButtonDown("Interact"))
             StartGame();
+        if (Input.GetKeyDown(KeyCode.Escape))
+            Application.Quit();
     }
 
     public void StartGame()

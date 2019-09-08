@@ -2,26 +2,43 @@
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.UI;
+using UnityEngine.EventSystems;
 
 public class CloseShop : MonoBehaviour
 {
     GameManager gm;
-    TextMeshPro tmp;
-    private bool colliding = false;
+    public TextMeshPro tmp;
+    private bool closing = false;
+    private bool confirmed = false;
+    private EventSystem es;
+
+    public Image confirmImage;
+    public Button noButton;
 
     private void Awake()
     {
         gm = FindObjectOfType<GameManager>();
-        tmp = GetComponent<TextMeshPro>();
+        es = FindObjectOfType<EventSystem>();
     }
 
     private void Update()
     {
-        if (colliding && Input.GetButtonDown("Interact"))
-            gm.EndGame();
+        if (!confirmed && Input.GetKeyDown(KeyCode.Escape))
+        {
+            if (!closing)
+            {
+                confirmImage.gameObject.SetActive(true);
+                es.SetSelectedGameObject(noButton.gameObject);
+                closing = true;
+            }
+        }
 
-        if (gm.finishedCount >=5)
+
+        if (gm.finishedCount >= 5)
+        {
             tmp.enabled = true;
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -29,9 +46,8 @@ public class CloseShop : MonoBehaviour
         if (collision.tag == "Player")
         {
             tmp.enabled = true;
-            colliding = true;
         }
-            
+
     }
 
     private void OnTriggerExit2D(Collider2D collision)
@@ -39,8 +55,19 @@ public class CloseShop : MonoBehaviour
         if (collision.tag == "Player")
         {
             tmp.enabled = false;
-            colliding = false;
         }
-            
+
+    }
+
+    public void DisableMenu()
+    {
+        closing = false;
+        confirmImage.gameObject.SetActive(false);
+    }
+
+    public void EndGame()
+    {
+        confirmed = true;
+        DisableMenu();
     }
 }
