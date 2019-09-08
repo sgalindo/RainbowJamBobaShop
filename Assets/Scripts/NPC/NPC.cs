@@ -22,12 +22,15 @@ public class NPC : MonoBehaviour
     protected bool atDestination = false;
     protected bool walking = false;
 
+    private Animator animator;
+
     protected void Awake()
     {
         dialogueSystem = GetComponent<DialogueSystem>();
         dialogueManager = (DialogueManager)FindObjectOfType(typeof(DialogueManager));
         movement = GetComponent<NPCMovement>();
         counterPosition = GameObject.Find("CounterPosition").transform;
+        animator = GetComponent<Animator>();
     }
 
     void Start()
@@ -94,6 +97,8 @@ public class NPC : MonoBehaviour
 
     protected virtual void WaitingUpdate()
     {
+        if (atDestination)
+            animator.SetLayerWeight(2, 1);
         if (endOfDialogue)
             ChangeState(State.Boba);
     }
@@ -101,6 +106,7 @@ public class NPC : MonoBehaviour
     protected virtual void BobaStart()
     {
         interactable = false;
+        animator.SetLayerWeight(2, 0);
         atDestination = false;
     }
 
