@@ -1,11 +1,11 @@
-﻿[Player Name]: Uhh, order for Nikki!
+Emcee: Uhh, order for Nikki!
 
 NIKKI: …
 
-[Player Name]: …
+Emcee: …
 
-[Player Name]: Helloooo?
+Emcee: Helloooo?
 
-[Player Name]: She’s totally absorbed in that book. Nobody’s here, I’ll just bring it to her.
+Emcee: She’s totally absorbed in that book. Nobody’s here, I’ll just bring it to her.
 
 -> END

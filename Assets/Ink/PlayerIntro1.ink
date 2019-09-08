@@ -1,13 +1,13 @@
-﻿[Player Name]: Whew…..
+Emcee: Whew…..
 
-[Player Name]: Okay.
+Emcee: Okay.
 
-[Player Name]: Okay.
+Emcee: Okay.
 
-[Player Name]: I can do this! I can do this. Just… Unlock the door.
+Emcee: I can do this! I can do this. Just… Unlock the door.
 
-[Player Name]: Aaaaaaand
+Emcee: Aaaaaaand
 
-[Player Name]: Boop!
+Emcee: Boop!
 
 -> END

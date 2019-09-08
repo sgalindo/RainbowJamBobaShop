@@ -1,20 +1,20 @@
-﻿[Player Name]: Yo, Sal!
+Emcee: Yo, Sal!
 
-[Player Name]: How’s my favorite customer who is also a bearded dragon?
+Emcee: How’s my favorite customer who is also a bearded dragon?
 
 SAL:...
 
 SAL: You got a lot of those?
 
-[Player Name]: I mean
+Emcee: I mean
 
-[Player Name]: Not yet?
+Emcee: Not yet?
 
-[Player Name]: But even if I had hundreds of bearded dragon customers
+Emcee: But even if I had hundreds of bearded dragon customers
 
-[Player Name]: I’m talkin bearded dragon customers out the DOOR
+Emcee: I’m talkin bearded dragon customers out the DOOR
 
-[Player Name]: You’d still be number one!
+Emcee: You’d still be number one!
 
 Sal: Haha
 
@@ -24,9 +24,9 @@ Sal: You know you don’t have to flatter me right? I’m already hooked on your
 
 Sal: Anyway, did you want to talk about something?
 
-[Player Name]: I’m making the rounds, you know?
+Emcee: I’m making the rounds, you know?
 
-[Player Name]: Getting to know everybody.
+Emcee: Getting to know everybody.
 
 Sal: Oh that’s nice!
 
@@ -34,11 +34,11 @@ Sal: Ask away!
 
 * [What exactly do you do?]
 
-    [Player Name]: Is that a guitar case you carry around?
+    Emcee: Is that a guitar case you carry around?
 
     SAL: Oh yeah, that’s my best friend!
 
-    [Player Name]: ?
+    Emcee: ?
 
     SAL: I travel a lot for gigs, and this is my favorite guitar.
 
@@ -46,15 +46,15 @@ Sal: Ask away!
 
     SAL: And you never know when you might wanna just burst into song on the street corner, you know?
 
-    [Player Name]: Oh wait what?
+    Emcee: Oh wait what?
 
-    [Player Name]: That’s so cool! Are you on Stoatify?
+    Emcee: That’s so cool! Are you on Stoatify?
 
     SAL: And Houndcloud!
 
-    [Player Name]: Ohhh man
+    Emcee: Ohhh man
 
-    [Player Name]: Don’t be surprised if you hear yourself coming through the speakers the next time you come in!
+    Emcee: Don’t be surprised if you hear yourself coming through the speakers the next time you come in!
 
     SAL: Ohhh man
 
@@ -62,27 +62,27 @@ Sal: Ask away!
 
 * [Where are you from?]
 
-    [Player Name]: You look like you’ve seen a lot of the world,Sal!
+    Emcee: You look like you’ve seen a lot of the world,Sal!
 
-    [Player Name]: Where did this whole music journey begin?
+    Emcee: Where did this whole music journey begin?
 
     SAL: Not too far away, all things considered.
 
-    [Player Name]: Oh yeah?
+    Emcee: Oh yeah?
 
     SAL: Mmhmm
 
     SAL: Just a nice little town in Sonora
 
-    [Player Name]: Oh dang, Mexico!
+    Emcee: Oh dang, Mexico!
 
     SAL: Haha
 
     SAL: Yeah, out in the desert!
 
-    [Player Name]: Ooooof
+    Emcee: Ooooof
 
-    [Player Name]: Too hot for me
+    Emcee: Too hot for me
 
     SAL: I mean it’s a dry heat!
 
@@ -94,13 +94,13 @@ Sal: Ask away!
 
     SAL: Anyway, I landed a work visa and I’ve been on the road ever since!
 
-    [Player Name]: Oh man, everyone back home must miss the heck out of you!
+    Emcee: Oh man, everyone back home must miss the heck out of you!
 
     SAL: Oh for sure.
 
     SAL: But I’m sure your folks back wherever you’re from miss you, too!
 
-    [Player Name]: Yeah, but they know I’m out following my dreams and stuff, so it’s cool.
+    Emcee: Yeah, but they know I’m out following my dreams and stuff, so it’s cool.
 
     SAL: Exactly! I’ll see them again one day. And until then, every new friend I make makes a city into a new home, you know?
 
@@ -110,7 +110,7 @@ Sal: Ask away!
 
 * [How are you?]
 
-    [Player Name]: How are you doing, Mr. Music Man?
+    Emcee: How are you doing, Mr. Music Man?
 
     SAL: I’m alright!
 

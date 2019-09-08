@@ -1,4 +1,4 @@
-[Player Name]: Here you go!
+Emcee: Here you go!
 
 GRANT: Thanks!
 

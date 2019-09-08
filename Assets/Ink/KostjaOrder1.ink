@@ -1,4 +1,4 @@
-﻿Kostja: Now I know you were just thinking to yourself
+Kostja: Now I know you were just thinking to yourself
 
 Kostja: Man, I miss Kostja!
 
@@ -10,11 +10,11 @@ Kostja: Here they are!
 
 Kostja: I’m They!
 
-[Player Name]: Yes, I know
+Emcee: Yes, I know
 
-[Player Name]: Haha
+Emcee: Haha
 
-[Player Name]: Hello, Kostja! What can I get you?
+Emcee: Hello, Kostja! What can I get you?
 
 Kostja: Hmmmm.
 
@@ -28,16 +28,16 @@ Kostja: Hmmmmmmmmmmmmmm.
 
 Kostja: Hmmmmmmmmmmmmmmmmmmmmmm.
 
-[Player Name]: (What the heck? Game?)
+Emcee: (What the heck? Game?)
 
 Kostja: Milk tea please!
 
-[Player Name]: C-Coming right out!
+Emcee: C-Coming right out!
 
-[Player Name]: Size? Mix-ins?
+Emcee: Size? Mix-ins?
 
 Kostja: Large, with boba!
 
-[Player Name]: You bet!
+Emcee: You bet!
 
 -> END

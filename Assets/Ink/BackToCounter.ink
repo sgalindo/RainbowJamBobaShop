@@ -1,11 +1,11 @@
-﻿[Player Name]: Nice.
+Emcee: Nice.
 
 Nikki: What?
 
-[Player Name]: Nothing! Hah!
+Emcee: Nothing! Hah!
 
-[Player Name]: (Back to the counter for me!)
+Emcee: (Back to the counter for me!)
 
-[Player Name]: (And just in time!)
+Emcee: (And just in time!)
 
 -> END

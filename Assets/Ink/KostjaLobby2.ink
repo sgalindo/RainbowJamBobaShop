@@ -1,13 +1,13 @@
-﻿KOSTJA: Did you need something?
+KOSTJA: Did you need something?
 
 
 * [How did your shop get started?]
 
-[Player Name]: You said you make jewelry.
+Emcee: You said you make jewelry.
 
-[Player Name]: How do you get into something like that?
+Emcee: How do you get into something like that?
 
-[Player Name]: I don’t know a lot of kids who have that as a passion.
+Emcee: I don’t know a lot of kids who have that as a passion.
 
 Kostja: Oh, I definitely didn’t.
 
@@ -17,9 +17,9 @@ Kostja: Turns out, I just really liked animals because they were colorful.
 
 Kostja: And you know what else is really colorful?
 
-[Player Name]: …
+Emcee: …
 
-[Player Name]: Boba?
+Emcee: Boba?
 
 Kostja: Hah
 
@@ -35,11 +35,11 @@ Kostja: I made my first necklace for a friend when I was 19. Pendants are still 
 
 Kostja: So much little detail, and so much emotional significance.
 
-[Player Name]: Oh man, like wedding rings?
+Emcee: Oh man, like wedding rings?
 
 Kostja: From time to time?
 
-[Player Name]: I’m not gonna lie, I’m glad nobody proposes with bubble tea. That sounds like too much pressure for me.
+Emcee: I’m not gonna lie, I’m glad nobody proposes with bubble tea. That sounds like too much pressure for me.
 
 Kostja: You say that, but now I’m making plans to propose to my partner here.
 
@@ -51,17 +51,17 @@ Kostja: Muahahahaha
 
 *  [Where are you from?]
 
-[Player Name]: I’ve been asking everyone this because everybody seems so well-traveled, where are you from?
+Emcee: I’ve been asking everyone this because everybody seems so well-traveled, where are you from?
 
 Kostja: A little country called Ratvia, can you believe it.
 
-[Player Name]: And most of the residents are…
+Emcee: And most of the residents are…
 
 Kostja: Rats, yes.
 
 Kostja: The first time I came here, you can bet all the different animals everywhere blew my mind!
 
-[Player Name]: Do you miss it?
+Emcee: Do you miss it?
 
 Kostja: I prefer the diversity here. More new ideas, new sights and sounds.
 
@@ -77,11 +77,11 @@ Kostja: Your shop, for example!
 
 Kostja: I already know a lot of these people, and it makes me smile to see them!
 
-[Player Name]: !!!
+Emcee: !!!
 
 *  [How are you?]
 
-[Player Name]: And how are you doing, Kostja? I like to check in on my friends.
+Emcee: And how are you doing, Kostja? I like to check in on my friends.
 
 Kostja: You know, I’m doing really well!
 
@@ -91,9 +91,9 @@ Kostja: And I had an idea for the cutest little bubble tea charm!
 
 Kostja: I’m gonna cast it in sterling and then add little stones for the tapioca pearls!
 
-[Player Name]: Wait that sounds so cute!
+Emcee: Wait that sounds so cute!
 
-[Player Name]: PLEEEASE let me buy one off you once you’re done!
+Emcee: PLEEEASE let me buy one off you once you’re done!
 
 Kostja: Of course, dear!
 

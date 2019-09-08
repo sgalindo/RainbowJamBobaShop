@@ -1,12 +1,12 @@
-﻿SAL: What's up?
+SAL: What's up?
 
 * [What exactly do you do?]
 
-    [Player Name]: Is that a guitar case you carry around?
+    Emcee: Is that a guitar case you carry around?
 
     SAL: Oh yeah, that’s my best friend!
 
-    [Player Name]: ?
+    Emcee: ?
 
     SAL: I travel a lot for gigs, and this is my favorite guitar.
 
@@ -14,15 +14,15 @@
 
     SAL: And you never know when you might wanna just burst into song on the street corner, you know?
 
-    [Player Name]: Oh wait what?
+    Emcee: Oh wait what?
 
-    [Player Name]: That’s so cool! Are you on Stoatify?
+    Emcee: That’s so cool! Are you on Stoatify?
 
     SAL: And Houndcloud!
 
-    [Player Name]: Ohhh man
+    Emcee: Ohhh man
 
-    [Player Name]: Don’t be surprised if you hear yourself coming through the speakers the next time you come in!
+    Emcee: Don’t be surprised if you hear yourself coming through the speakers the next time you come in!
 
     SAL: Ohhh man
 
@@ -30,27 +30,27 @@
 
 * [Where are you from?]
 
-    [Player Name]: You look like you’ve seen a lot of the world,Sal!
+    Emcee: You look like you’ve seen a lot of the world,Sal!
 
-    [Player Name]: Where did this whole music journey begin?
+    Emcee: Where did this whole music journey begin?
 
     SAL: Not too far away, all things considered.
 
-    [Player Name]: Oh yeah?
+    Emcee: Oh yeah?
 
     SAL: Mmhmm
 
     SAL: Just a nice little town in Sonora
 
-    [Player Name]: Oh dang, Mexico!
+    Emcee: Oh dang, Mexico!
 
     SAL: Haha
 
     SAL: Yeah, out in the desert!
 
-    [Player Name]: Ooooof
+    Emcee: Ooooof
 
-    [Player Name]: Too hot for me
+    Emcee: Too hot for me
 
     SAL: I mean it’s a dry heat!
 
@@ -62,13 +62,13 @@
 
     SAL: Anyway, I landed a work visa and I’ve been on the road ever since!
 
-    [Player Name]: Oh man, everyone back home must miss the heck out of you!
+    Emcee: Oh man, everyone back home must miss the heck out of you!
 
     SAL: Oh for sure.
 
     SAL: But I’m sure your folks back wherever you’re from miss you, too!
 
-    [Player Name]: Yeah, but they know I’m out following my dreams and stuff, so it’s cool.
+    Emcee: Yeah, but they know I’m out following my dreams and stuff, so it’s cool.
 
     SAL: Exactly! I’ll see them again one day. And until then, every new friend I make makes a city into a new home, you know?
 
@@ -78,7 +78,7 @@
 
 * [How are you?]
 
-    [Player Name]: How are you doing, Mr. Music Man?
+    Emcee: How are you doing, Mr. Music Man?
 
     SAL: I’m alright!
 

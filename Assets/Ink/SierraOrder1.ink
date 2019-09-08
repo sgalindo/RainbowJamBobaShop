@@ -1,18 +1,18 @@
-﻿SIERRA: Helloooo!
+SIERRA: Helloooo!
 
-[Player Name]: Hi, how are you?
+Emcee: Hi, how are you?
 
 SIERRA: I’m doing great, thanks for asking!
 
 SIERRA: And how are you?
 
-[Player Name]: You know what?
+Emcee: You know what?
 
-[Player Name]: I’m doing pretty great!
+Emcee: I’m doing pretty great!
 
-[Player Name]: I’ve met a lot of new people today, more than I have since I moved here.
+Emcee: I’ve met a lot of new people today, more than I have since I moved here.
 
-[Player Name]: And I keep wondering, why did I keep to myself for so long?
+Emcee: And I keep wondering, why did I keep to myself for so long?
 
 SIERRA: Oh, I totally know what you mean, though.
 
@@ -24,14 +24,14 @@ SIERRA: Plus, your tea is freaking great.
 
 SIERRA: Selfishly, I’m glad you’re here if only for that!
 
-[Player Name]: Thank yoooooou
+Emcee: Thank yoooooou
 
-[Player Name]: Haha
+Emcee: Haha
 
 SIERRA: Mind making me a melon smoothie?
 
 SIERRA: I’m feelin’ fruity!
 
-[Player Name]: You bet! It’ll be out in just a sec.
+Emcee: You bet! It’ll be out in just a sec.
 
 -> END

@@ -1,10 +1,10 @@
-﻿NIKKI: Can I help you, [Player Name]?
+NIKKI: Can I help you, Emcee?
 
 * [What’s your book about?]
 
-    [Player Name]: You said you were writing a book, right?
+    Emcee: You said you were writing a book, right?
 
-    [Player Name]: Am I allowed to ask what it’s about?
+    Emcee: Am I allowed to ask what it’s about?
 
     NIKKI: Ohohoho boy
 
@@ -12,17 +12,17 @@
 
     NIKKI: I could talk for hours.
 
-    [Player Name]: Well, I don’t have HOURS…
+    Emcee: Well, I don’t have HOURS…
 
-    [Player Name]: But I do absolutely wanna hear about it
+    Emcee: But I do absolutely wanna hear about it
 
-    [Player Name]: Can you give me a synopsis?
+    Emcee: Can you give me a synopsis?
 
-    [Player Name]: A little summarino?
+    Emcee: A little summarino?
 
     NIKKI: Summarino?
 
-    [Player Name]: Yeah, I knew when I said it that it was nothing. You know what I mean.
+    Emcee: Yeah, I knew when I said it that it was nothing. You know what I mean.
 
     NIKKI: Haha
 
@@ -32,9 +32,9 @@
 
 * [Where are you from?]
 
-    [Player Name]: You seem really familiar with the area, Nikki.
+    Emcee: You seem really familiar with the area, Nikki.
 
-    [Player Name]: Have you lived here awhile?
+    Emcee: Have you lived here awhile?
 
     NIKKI: Oh, kinda?
 
@@ -48,13 +48,13 @@
 
     NIKKI: The weather is wonderful, and everybody in town is so welcoming and friendly.
 
-    NIKKI: Just like you, [Player Name]! You fit right into our little community like a part we didn’t know we were missing.
+    NIKKI: Just like you, Emcee! You fit right into our little community like a part we didn’t know we were missing.
 
-    [Player Name]: (!!!)
+    Emcee: (!!!)
 
-    NIKKI: How about you, [Player Name]? Where was home before home was here?
+    NIKKI: How about you, Emcee? Where was home before home was here?
 
-    [Player Name]: Oh, nowhere super interesting, honestly.
+    Emcee: Oh, nowhere super interesting, honestly.
 
     NIKKI: It doesn’t have to be all that interesting for me to be interested!
 
@@ -62,17 +62,17 @@
 
     NIKKI: If nothing else, so I can steal them from you and use them in a book!
 
-    [Player Name]: You know, that’s fair.
+    Emcee: You know, that’s fair.
 
-    [Player Name]: I grew up in the Midwest, so, like I said, nothing super exciting.
+    Emcee: I grew up in the Midwest, so, like I said, nothing super exciting.
 
-    [Player Name]: Mild summers, snowy winters, and lots of flat land.
+    Emcee: Mild summers, snowy winters, and lots of flat land.
 
-    [Player Name]: So, nothing like here!
+    Emcee: So, nothing like here!
 
-    [Player Name]: I had a nice, cushy little ‘safe’ job, and some decent savings.
+    Emcee: I had a nice, cushy little ‘safe’ job, and some decent savings.
 
-    [Player Name]: It was fine, ‘till somebody reminded me of how bad I used to want a shop like this as a kid.
+    Emcee: It was fine, ‘till somebody reminded me of how bad I used to want a shop like this as a kid.
 
     NIKKI: Oh man.
 
@@ -80,9 +80,9 @@
 
     NIKKI: Up and left?
 
-    [Player Name]: Pretty much, yeah.
+    Emcee: Pretty much, yeah.
 
-    [Player Name]: Probably a little reckless, I know.
+    Emcee: Probably a little reckless, I know.
 
     NIKKI: You know, maybe
 
@@ -94,11 +94,11 @@
 
     NIKKI: I’m gonna make sure to tell everyone about this place.
 
-    [Player Name]: Ahhh, you’re too much!
+    Emcee: Ahhh, you’re too much!
 
 * [How are you?]
 
-    [Player Name]: How are you today, Nikki?
+    Emcee: How are you today, Nikki?
 
     NIKKI: You know what?
 

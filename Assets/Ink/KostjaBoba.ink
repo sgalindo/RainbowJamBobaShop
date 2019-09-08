@@ -1,4 +1,4 @@
-[Player Name]: Here's your order!
+Emcee: Here's your order!
 
 Kostja: T Y!
 
