@@ -1,48 +1,4 @@
-﻿[Player Name]: Hi Nikki, watcha reading?
-
-NIKKI: Eep!
-
-NIKKI: How are you so quiet? You’d think it’d be harder to sneak up on me with ears like this, but you seem to manage!
-
-[Player Name]: I’m sorry!
-
-[Player Name]: Didn’t mean to startle you!
-
-NIKKI: No, don’t worry about it, haha
-
-NIKKI: I just get really engrossed in stuff.
-
-NIKKI: I’m actually reading over my own manuscript!
-
-NIKKI: Or like,
-
-NIKKI: The chapter and a half I’ve managed to write
-
-[Player Name]: Oh, you’re a novelist?
-
-NIKKI: Can I say yes if I haven’t finished a book?
-
-[Player Name]: You wanna do it, right?
-
-NIKKI: Well, yeah.
-
-[Player Name]: And you’re taking steps to do it?
-
-NIKKI: I am, yeah!
-
-[Player Name]: Then you are ABSOLUTELY a novelist!
-
-NIKKI: …
-
-NIKKI: You know, I hadn’t thought of it like that.
-
-NIKKI: That… actually helps my confidence a lot!
-
-NIKKI: I know we just met a little while ago, but you’re a really good friend, [Player Name]!
-
-NIKKI: What did you need again?
-
-[Player Name]: I’m just trying to get to know everyone!
+﻿NIKKI: Can I help you, [Player Name]?
 
 * [What’s your book about?]
 

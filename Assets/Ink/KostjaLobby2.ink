@@ -1,28 +1,5 @@
-﻿[Player Name]: Heya Kostja!
+﻿KOSTJA: Did you need something?
 
-Kostja: Hello [Player Name]!
-
-Kostja: Fancy meeting you here!
-
-[Player Name]: Right? What are the odds?
-
-Kostja: Hahaha
-
-Kostja: Was there something you needed?
-
-[Player Name]: Oh, not exactly.
-
-[Player Name]: Sorry to bother you!
-
-Kostja: Ah, no, that’s not what I meant!
-
-[Player Name]: I’m just making the rounds, getting to know my customers!
-
-[Player Name]: I’d much rather be able to think of you as friends, and the first step is getting to know you!
-
-[Player Name]: Well, I guess the first step was making you tea, but you know what I mean!
-
-Kostja: Yes yes! What did you want to know?
 
 * [How did your shop get started?]
 

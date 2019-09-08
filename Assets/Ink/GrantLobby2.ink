@@ -1,28 +1,5 @@
-﻿GRANT: (I told them, a custom solution makes no sense!)
+﻿GRANT: Did you need something?
 
-GRANT: (With their budget and staffing, something out of box is way more maintainable!)
-
-GRANT: Oop, hi [Player Name]!
-
-GRANT: Was a bit zoned out there.
-
-GRANT: What’s up!
-
-[Player Name]: Oh, I’m just making the rounds.
-
-[Player Name]: The shop’s kind of slow right now, so I figured I’d get to know my customers a little.
-
-[Player Name]: I’m super new in town, so I figured, what better place to make friends?
-
-GRANT: You know, I’m not gonna lie, most places this would be kinda weird.
-
-GRANT: But I dunno, [Player Name], something about you and this shop makes it feel genuine.
-
-GRANT: So, hi!
-
-GRANT: Nice to meet you without a counter in the way!
-
-[Player Name]: Nice to meet you!
 
 * [Where are you from?]
 
